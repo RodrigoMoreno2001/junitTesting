@@ -14,7 +14,8 @@ class GastosTest {
             fail("Fallo");
         }
     }
-
+    // Este test debe fallar, victor hizo que "costeCom()" tire una excepcion cuando es negativo
+    // cuando mi programa capture la excepcion saltará el fail()
     @Test
     void comprobarGastoFalse(){
         try {

@@ -10,6 +10,8 @@ class MainTest {
     void comprobarDNITrue() {
         assertTrue(Main.comprobarDNI("55930437A"));
     }
+
+    // Este test comprueba un DNI falso, NO debería fallar
     @Test
     void comprobarDNIFalse() {
         assertFalse(Main.comprobarDNI("55930437B"));
